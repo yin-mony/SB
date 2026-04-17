@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-flame">
+  <path
+    d="M32 10C36 18 28 22 36 30C40 34 42 38 42 42C42 49 37 54 32 54C27 54 22 49 22 42C22 36 26 30 30 26C34 22 30 18 32 10Z"
+    fill="none"
+    stroke="#000"
+    stroke-linejoin="round"
+    stroke-width="4"
+  />
+  <path d="M32 32C34 36 30 38 32 42C33 44 34 46 34 48C34 50 33 52 32 52C31 52 30 50 30 48C30 44 32 40 32 32Z" fill="#000" />
+</svg>
+

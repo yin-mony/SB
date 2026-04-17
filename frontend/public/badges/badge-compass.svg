@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-compass">
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#000" stroke-width="4" />
+  <path d="M32 14V18" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+  <path d="M32 46V50" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+  <path d="M14 32H18" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+  <path d="M46 32H50" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+  <path d="M28 36L40 24L36 40L24 28L28 36Z" fill="#000" />
+</svg>
+

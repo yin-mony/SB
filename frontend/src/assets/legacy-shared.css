@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Inter:wght@400;700;900&display=swap');
+
+:root {
+  --primary: #ff477e;
+  --secondary: #ffbe0b;
+  --accent: #3a86ff;
+  --bg-light: #fdf0d5;
+  --mint: #06d6a0;
+  --purple: #8338ec;
+}
+
+body {
+  font-family: 'Inter', 'ZCOOL KuaiLe', sans-serif;
+  background-color: var(--bg-light);
+}
+
+.humor-font {
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.nav-link {
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 8px;
+  bottom: -4px;
+  left: 0;
+  background: var(--secondary);
+  z-index: -1;
+  transition: width 0.3s;
+  border-radius: 4px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.bouncy-btn {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-brain">
+  <path d="M26 18C22 18 18 21 18 26C14 28 12 32 12 36C12 42 16 46 22 46H26" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+  <path d="M38 18C42 18 46 21 46 26C50 28 52 32 52 36C52 42 48 46 42 46H38" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+  <path d="M26 18C26 14 29 12 32 12C35 12 38 14 38 18V46C38 50 35 52 32 52C29 52 26 50 26 46V18Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4" />
+  <path d="M26 26C29 26 30 24 32 24C34 24 35 26 38 26" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+  <path d="M26 36C29 36 30 34 32 34C34 34 35 36 38 36" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+</svg>
+

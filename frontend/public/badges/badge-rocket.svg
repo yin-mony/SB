@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-rocket">
+  <path d="M36 10C44 12 52 22 52 34C52 36 51.8 38 51.4 40L40 51.4C38 51.8 36 52 34 52C22 52 12 44 10 36C16 22 26 12 36 10Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4" />
+  <path d="M26 38L18 46L18 54L26 54L34 46" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4" />
+  <circle cx="38" cy="26" r="5" fill="none" stroke="#000" stroke-width="4" />
+  <path d="M14 52C14 46 18 42 24 42" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+</svg>
+

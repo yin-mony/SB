@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-medal">
+  <path d="M22 10H30L32 18L34 10H42L38 28H26L22 10Z" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="4" />
+  <circle cx="32" cy="42" r="12" fill="none" stroke="#000" stroke-width="4" />
+  <path d="M32 34L34.6 39.6L40.6 40.2L36 44.1L37.4 50L32 46.9L26.6 50L28 44.1L23.4 40.2L29.4 39.6L32 34Z" fill="#000" />
+</svg>
+

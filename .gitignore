@@ -14,6 +14,7 @@ debate_paradise/staticfiles/
 # Node / 前端构建产物
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
 
 # 环境变量与密钥（仅示例可提交）
 .env
@@ -32,5 +33,7 @@ Thumbs.db
 # 本地工具目录
 .trae/
 
-# 用户上传（若希望仓库不含上传文件，取消下一行注释）
-# debate_paradise/media/
+# 用户上传与本地静态上传目录（勿提交到公开仓库）
+debate_paradise/media/
+debate_paradise/static/uploads/
+frontend/public/uploads/

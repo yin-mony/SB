@@ -1,0 +1,28 @@
+FROM python:3.11-slim-bookworm
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    DJANGO_SETTINGS_MODULE=config.settings.production
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY debate_paradise/requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt gunicorn
+
+COPY debate_paradise/ /app/
+
+# 构建阶段 collectstatic 需要合法密钥与 ALLOWED_HOSTS
+ARG DJANGO_BUILD_SECRET=build-only-change-in-production
+ENV DJANGO_SECRET_KEY=${DJANGO_BUILD_SECRET} \
+    DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1
+RUN python manage.py collectstatic --noinput 2>/dev/null || true
+
+COPY deploy/docker-entrypoint-api.sh /docker-entrypoint-api.sh
+RUN chmod +x /docker-entrypoint-api.sh
+
+EXPOSE 8000
+ENTRYPOINT ["/docker-entrypoint-api.sh"]

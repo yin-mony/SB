@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="badge-heart">
+  <path
+    d="M32 54C22 46 14 40 14 30C14 24 18 20 24 20C28 20 30.8 22 32 24C33.2 22 36 20 40 20C46 20 50 24 50 30C50 40 42 46 32 54Z"
+    fill="none"
+    stroke="#000"
+    stroke-linejoin="round"
+    stroke-width="4"
+  />
+  <path d="M20 30C20 26 22 24 26 24" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4" />
+</svg>
+

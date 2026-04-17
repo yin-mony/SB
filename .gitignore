@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Django / 本地库（勿提交到 GitHub）
+debate_paradise/db.sqlite3
+debate_paradise/staticfiles/
+
+# Node / 前端构建产物
+frontend/node_modules/
+frontend/dist/
+
+# 环境变量与密钥（仅示例可提交）
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地工具目录
+.trae/
+
+# 用户上传（若希望仓库不含上传文件，取消下一行注释）
+# debate_paradise/media/
